@@ -1,0 +1,15 @@
+#Ignore Folders
+**/Autosaves/*
+**/ImportedStructures/*
+**/Intermediate/*
+**/Saved/*
+**/DerivedDataCache/*
+**/Binaries/*
+**/*.sln
+**/.vs/*
+*.dll
+*.pdb
+*.-Shipping.*
+**/Logs/*
+**/.idea/*
+**/Content/*

@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GoogleTest",
+	"Description": "",
+	"Category": "Test",
+	"CreatedBy": "Nans Pellicari",
+	"CreatedByURL": "https://github.com/NansPellicari",
+	"DocsURL": "https://github.com/NansPellicari/UE4-GoogleTest",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"EnabledByDefault": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GoogleTest",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "Default"
+		}
+	]
+}
