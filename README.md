@@ -9,3 +9,6 @@ The included tests can be executed by opening the GoogleMockUnreal.uproject (alt
 Window -> TestAutomation -> CustomVariantManager
 
 To package a project, change the Test-Modules type from "Editor" to "Program". This will prevent the module from being build.
+
+## Article:
+https://www.maibornwolff.de/en/blog/how-we-create-real-unittests-unreal-engine-googlemock
