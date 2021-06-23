@@ -6,10 +6,12 @@
 #define LOCTEXT_NAMESPACE "CustomVariantManagerTest"
 
 
-IMPLEMENT_MODULE(ITestModule, Test)void ITestModule::StartupModule()
+IMPLEMENT_MODULE(ITestModule, Test)
+
+void ITestModule::StartupModule()
 {
-	if (::testing::internal::failure_reporter == nullptr)
-		::testing::internal::failure_reporter = new TestHelpersFailureReporter();
+	::testing::TestEventListeners& Listeners = ::testing::UnitTest::GetInstance()->listeners();
+	Listeners.Append(new TestHelpersFailureReporter());
 
 	FApplicationModule::Get().OnVipInterfacesRegisteredDelegate.BindLambda([]()
 	{
